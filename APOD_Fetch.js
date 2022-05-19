@@ -5,8 +5,6 @@
 
 // promise.then()
 
-
-
 $(document).ready(
     function () {
     $("#view_button").click(getPicture);
@@ -33,4 +31,4 @@ $(document).ready(
     };
     function noPicture(error) {
     alert(error.responseText);
-    };
+    }S;
